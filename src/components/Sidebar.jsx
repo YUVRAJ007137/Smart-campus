@@ -9,7 +9,8 @@ export default function Sidebar({ activeModule, onModuleChange, isOpen, onToggle
     { id: 'classroom', label: '⚡ Smart Classroom', icon: '⚡' },
     { id: 'parking', label: '🚗 Smart Parking', icon: '🚗' },
     { id: 'department', label: '🏛️ Departments', icon: '🏛️' },
-    { id: 'campus-map', label: '�️ Campus Map', icon: '�️' },
+    { id: 'campus-map', label: '🗺️ Campus Map', icon: '🗺️' },
+    { id: 'timetable', label: '📅 Timetable', icon: '📅' },
     { id: 'security', label: '🔒 Campus Security', icon: '🔒' },
   ];
 

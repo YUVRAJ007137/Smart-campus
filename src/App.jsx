@@ -6,6 +6,7 @@ import ParkingModule from './components/ParkingModule';
 import DepartmentModule from './components/DepartmentModule';
 import SecurityModule from './components/SecurityModule';
 import CampusMapModule from './components/CampusMapModule';
+import TimetableModule from './components/TimetableModule';
 import './App.css';
 
 /**
@@ -37,6 +38,8 @@ export default function App() {
         return <SecurityModule />;
       case 'campus-map':
         return <CampusMapModule />;
+      case 'timetable':
+        return <TimetableModule />;
       default:
         return <ClassroomModule />;
     }
