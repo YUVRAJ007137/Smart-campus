@@ -22,7 +22,7 @@ export default function CampusMapModule() {
               <div className="map-image-area">
                 {/* Replace this with your actual campus map image */}
                 <img 
-                  src="public/image.png" 
+                  src="/image.png" 
                   alt="Campus Map"
                   className="map-image"
                 />
